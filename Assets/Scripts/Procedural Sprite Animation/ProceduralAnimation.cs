@@ -19,6 +19,7 @@ public class ProceduralAnimation : MonoBehaviour
     }
 
     void Start(){
+        //Initialize state variables
         last_x = parent.position;
         y = last_x;
         dy = Vector2.zero;
